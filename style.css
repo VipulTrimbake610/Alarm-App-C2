@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background-color: #1D1D23;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.section{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1{
+    margin-top: 30px;
+    height: 55px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.section2{
+    height:90px;
+}
+
+.s2, .s4{
+    display: flex;
+    background-color: #34344A;
+    padding: 15px 30px;
+    border-radius: 15px;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+.settime, .timeLeft{
+    font-size: 20px;
+    font-weight: 500;
+}
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+    width: 160px;
+    align-items: center;
+    height: 30px;
+    column-gap: 5px;
+}
+.inputs input{
+    background-color: #34344A;
+    width: 40px;
+    /* height: 25px;  */
+    padding: 20px 0;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.inputs input:focus{
+    outline: none;
+    font-size: 20px;
+}
+input::placeholder{
+    font-size: 20px;
+    color: white;
+}
+.colon{
+    margin-top: -5px;
+    margin-right: 5px;
+    margin-left: -5px;
+    font-size: 35px;
+}
+.colon2{
+    /* margin-left: 5px; */
+}
+#btnSet, #btnDelete{
+    width: 90px;
+    height: 45px;
+    border-radius: 30px;
+    color: black;
+    background-color: yellow;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+.section3{
+    height: 50px;
+}
+#btnCurrentTimers{
+    background-color: #39393E;
+    padding: 14px 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.section4{
+    flex-direction: column;
+    row-gap: 20px;
+}

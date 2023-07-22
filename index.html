@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="section1 section" >
+            <div>Multiple Timers App</div>
+        </section>
+        <section class="section2 section">
+            <div class="s2">
+                <div class="settime">Set Time</div>
+                <div class="inputs">
+                    <input type="text" id="hrs" name="hrs" placeholder="hh"  maxlength="2">
+                    <span class="colon">:</span>
+                    <input type="text" id="mins" name="mins" placeholder="mm" maxlength="2">
+                    <span class="colon colon2" >:</span>
+                    <input type="text" id="secs" name="secs" placeholder="ss" maxlength="2">
+                </div>
+                <button id="btnSet">Set</button>
+            </div>
+        </section>
+        <section class="section3 section">
+            <button id="btnCurrentTimers">Current Timers</button>
+        </section>
+        <section class="section4 section" id="section4">
+            <!-- <div class="s4">
+                <div class="timeLeft">Time Left</div>
+                <div class="inputs">
+                    <input type="text" id="hrs" name="hrs" placeholder="hh"  maxlength="2" readonly>
+                    <span class="colon">:</span>
+                    <input type="text" id="mins" name="mins" placeholder="mm" maxlength="2" readonly>
+                    <span class="colon colon2" >:</span>
+                    <input type="text" id="secs" name="secs" placeholder="ss" maxlength="2" readonly>
+                </div>
+                <button id="btnDelete">Delete</button>
+            </div> -->
+        </section>
+    </main>
+    <audio id="myAudio" loop>
+        <source src="alarm.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    <script src="script.js"></script>
+</body>
+</html>
